@@ -13,9 +13,6 @@ while [ $# -gt 0 ]; do
         --db*)
             withDatabase=true
             ;;
-        --test*)
-            test="${1#*=}"
-            ;;
         *)
             printf "Error: Invalid argument \"$1\"\n"
             exit 1
