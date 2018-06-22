@@ -17,8 +17,9 @@ Encore
     // uncomment if you use Sass/SCSS files
     // .enableSassLoader()
 
-    // uncomment for legacy applications that require $/jQuery as a global variable
-    // .autoProvidejQuery()
+    .autoProvidejQuery()
+    .addEntry('semantic_styles', './semantic/dist/semantic.min.css')
+    .addEntry('semantic_javascripts', './semantic/dist/semantic.min.js')
 ;
 
 module.exports = Encore.getWebpackConfig();
