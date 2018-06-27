@@ -23,3 +23,7 @@ yarn-error.log
 ###< symfony/phpunit-bridge ###
 
 /semantic/
+
+###> behat/symfony2-extension ###
+behat.yml
+###< behat/symfony2-extension ###
